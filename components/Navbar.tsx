@@ -36,6 +36,7 @@ export default function Navbar() {
           {/* 1. Logo Prominently Scaled (Matches User Screenshot) */}
           <Link
             href="/"
+            aria-label="Al-Mustafa Academy Home Page"
             className="flex items-center focus:outline-none p-0 transition-opacity hover:opacity-90"
           >
             <Image
@@ -47,6 +48,7 @@ export default function Navbar() {
               className="h-14 sm:h-18 lg:h-22 w-auto object-contain"
             />
           </Link>
+
 
 
           {/* 2. Navigation Links with Pill Hover & Active States */}
